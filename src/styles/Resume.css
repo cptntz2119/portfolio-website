@@ -1,0 +1,30 @@
+.resume-container{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  width:100%;
+  margin-bottom: 20px;
+}
+
+
+
+.resume{
+  width: 100%;
+  height: 90%;
+}
+
+.download{
+  margin: 3%;
+  align-self: center;
+}
+
+.download-button {
+  background-color: #000000 !important;
+}
+
+.download-button:hover {
+  background-color: #0cc6e7 !important;
+}
+
+
+

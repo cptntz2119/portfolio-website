@@ -1,0 +1,168 @@
+.home-container{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+.content-container{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content:space-between;
+  margin-top: 5%;
+  margin-left: 8%;
+}
+
+.description-container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.img-container{
+  width: 100%;
+  margin-left: 15%;
+  
+}
+
+.profile-pic{
+  width: 200px;
+  height: 200px;
+  background-repeat: no-repeat;
+  border-radius: 49% 55% 70% 28% / 49% 40% 55% 48%;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  box-shadow: 0px 0px 15px rgba(23, 204, 195, 0.25);
+  animation: bold 2s linear infinite;
+}
+
+@keyframes bold {
+  0%, 100%{
+    border-radius: 45% 55% 70% 28% / 45% 40% 55% 48%;
+  }
+  40% {
+    border-radius: 45% 30% 35% 48% / 28% 20% 70% 70%;
+  }
+  80%{
+    border-radius: 100% 50% 50% 100% / 100% 100% 50% 50%;
+  }
+}
+
+.profile-pic {
+  border-radius: 60%;
+  height: 70%;
+  width: 40%; 
+  object-fit: fill;
+}
+
+
+.home-about-section{
+  margin-top: 10%;
+  
+  display: flex;
+  justify-self: center;
+}
+
+
+
+.wave {
+  animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
+  animation-duration: 2.1s; /* Change to speed up or slow down */
+  animation-iteration-count: infinite; /* Never stop waving :) */
+  transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
+  display: inline-block;
+}
+
+@keyframes wave-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(14deg);
+  } /* The following five values can be played with to make the waving more or less extreme */
+  20% {
+    transform: rotate(-8deg);
+  }
+  30% {
+    transform: rotate(14deg);
+  }
+  40% {
+    transform: rotate(-4deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  } /* Reset for the last half to pause */
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+.home-social-icons {
+  position: relative !important;
+  display: inline-block !important;
+  width: 60px !important;
+  height: 60px !important;
+  text-align: center !important;
+  font-size: 1.7em !important;
+  line-height: 2em !important;
+  background: #343e47 !important;
+  border-radius: 50% !important;
+  transition: 0.5s !important;
+  border: 1px solid #343e47;
+}
+
+.home-social-icons::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: #5b585c;
+  transition: 0.5s;
+  transform: scale(0.9);
+  z-index: -1;
+}
+
+.home-social-icons:hover::before {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px #414141;
+}
+
+.home-social-icons:hover {
+  color: #414141;
+  box-shadow: 0 0 5px #414141;
+  text-shadow: 0 0 2px #414141;
+}
+
+.social-icons {
+  display: inline-block !important;
+  padding-left: 15px;
+  height: 60px;
+}
+
+.icon-colour {
+  color: #ffffff !important;
+}
+
+.social-icon {
+  margin-top: 10px;
+}
+
+.typeWriter-container{
+  font-size: 2.2em;
+}
+

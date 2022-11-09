@@ -1,0 +1,44 @@
+
+@media (max-width: 767px) {
+  .nav-copywright {
+    text-align: center !important;
+  }
+
+  .nav-body {
+    text-align: center !important;
+  }
+}
+.navbar-container {
+  background-color: #343e47;
+  width:100%;
+  height:50px; 
+  margin:  auto;
+  display: flex;
+  gap: 2rem;
+  z-index: 1; 
+  transition: all 0.3s ease-out 0s !important;
+  
+  justify-items: center;
+  font-size: 1.17em;
+}
+
+.link {
+  color: rgb(247, 238, 238);
+  width: 90vw;
+  max-width: var(--max-width);
+  margin-top: 0.5em;
+  display: flex;
+  gap: 1rem;
+}
+
+.active {
+  color: rgb(13, 232, 82);
+  width: 90vw;
+  max-width: var(--max-width);
+  margin-top: 0.5em;
+  display: flex;
+  gap: 1rem;
+}
+
+ 
+

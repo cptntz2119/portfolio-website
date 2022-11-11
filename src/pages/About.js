@@ -58,7 +58,7 @@ const About = () => {
           <li>
             Foodie: enjoy exploring and sharing all kinds of delicious food.
           </li>
-          <li>Fashionable: favorite brands are Dior, LV, and Gucci.</li>
+          <li>Fashionable: favorite brands are Dior, LV, and Arc'Teryx</li>
         </ul>
       </div>
       <div className="skills-container">

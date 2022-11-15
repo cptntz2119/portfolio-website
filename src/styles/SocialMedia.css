@@ -1,0 +1,36 @@
+
+.social-icons {
+  margin: 10px;
+}
+
+.social-icons a {
+  overflow: hidden;
+  backdrop-filter: blur(15px);
+  transition: 0.5s;
+}
+
+.social-icons a::before {
+  background: linear-gradient(to right,
+          rgba(8, 211, 234, 0.3),
+          transparent);
+  transition: 0.5s;
+  transform:  translateX(400%);
+}
+
+.social-icons:hover a::before {
+  transition: 0.5s;
+}
+
+.social-icons:hover {
+  transform: translateY(-20%);
+}
+
+.social-icons:hover::before
+.social-icons:hover::after {
+  transition-delay: 0.5s;
+}
+
+
+
+
+

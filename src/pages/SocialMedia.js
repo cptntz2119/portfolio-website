@@ -5,6 +5,7 @@ import {
 } from "react-icons/ai";
 import { MdEmail } from "react-icons/md";
 import { FaLinkedinIn } from "react-icons/fa";
+import "../styles/SocialMedia.css"
 
 function SocialMedia() {
   return (

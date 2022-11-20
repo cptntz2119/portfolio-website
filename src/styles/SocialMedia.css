@@ -11,7 +11,7 @@
 
 .social-icons a::before {
   background: linear-gradient(to right,
-          rgba(8, 211, 234, 0.3),
+  #0ABAB5,
           transparent);
   transition: 0.5s;
   transform:  translateX(400%);

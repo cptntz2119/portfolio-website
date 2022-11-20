@@ -34,7 +34,7 @@ margin: 1px;
 
 .project-card:hover {
   transform: scale(1.02) !important;
-  /* overflow: hidden !important; */
+  
   box-shadow: 0 4px 4px 5px #0bc3e8 !important;
 }
 

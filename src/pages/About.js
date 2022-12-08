@@ -4,7 +4,7 @@ import Techstack from "./Techstack";
 import { SKILLS } from "../data";
 const About = () => {
   return (
-    <section className="section">
+    <section className="about-section">
       <h2>About me</h2>
       {/* <Link to='/' className='btn'>
         Back Home
